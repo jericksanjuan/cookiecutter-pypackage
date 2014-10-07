@@ -19,3 +19,4 @@ script: python setup.py test
 {% if cookiecutter.repo_name %}
     Hello World
 {% endif %}
+{{ cookiecutter.author_name }}
