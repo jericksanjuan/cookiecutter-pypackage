@@ -20,5 +20,8 @@ script: python setup.py test
     Hello World
 {% endif %}
 {{ cookiecutter.repo_name }}
+{% raw %}
 '{{ ansible variable }}'
+{% endraw %}
+
 
