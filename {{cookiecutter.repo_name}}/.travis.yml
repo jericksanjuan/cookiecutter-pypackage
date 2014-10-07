@@ -20,5 +20,5 @@ script: python setup.py test
     Hello World
 {% endif %}
 {{ cookiecutter.repo_name }}
-"{{ ansible variable }}"
+'{{ ansible variable }}'
 
