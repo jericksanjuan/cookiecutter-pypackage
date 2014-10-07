@@ -19,5 +19,6 @@ script: python setup.py test
 {% if cookiecutter.repo_name %}
     Hello World
 {% endif %}
-{{ cookiecutter.repor_name }}
+{{ cookiecutter.repo_name }}
+"{{ ansible variable }}"
 
