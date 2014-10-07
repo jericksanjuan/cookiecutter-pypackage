@@ -20,3 +20,4 @@ script: python setup.py test
     Hello World
 {% endif %}
 {{ cookiecutter.author_name }}
+
