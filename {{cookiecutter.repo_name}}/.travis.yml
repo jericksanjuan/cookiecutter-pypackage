@@ -18,4 +18,4 @@ script: python setup.py test
 {{ '{{ test_yaml }}' }}
 {% if cookiecutter.repo_name %}
     Hello World
-{% endif $}
+{% endif %}
